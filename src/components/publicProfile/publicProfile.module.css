@@ -1,0 +1,149 @@
+.Main {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	/* height: 99.6vh;
+    width: 100vw; */
+	padding-top: 12px;
+	background-color: #e5edf6;
+	overflow-y: auto;
+}
+
+.Card {
+	margin: 1vh 3vh;
+	padding: 8px;
+	min-height: 525px;
+	height: auto;
+	border-radius: 13px;
+	background-image: linear-gradient(to top, #313e8c, #232a48);
+	text-align: center;
+	color: white;
+}
+
+.Title {
+	font-family: "iransansbold";
+	font-size: 0.95em;
+	margin: 5px 0 8px 0;
+	position: relative;
+}
+
+.Image {
+	width: 110px;
+	height: 110px;
+	border: 2.5px solid #419bf9;
+	margin: 10px auto;
+	border-radius: 13px;
+	overflow: hidden;
+}
+
+.Image img {
+	width: auto;
+	height: 100%;
+}
+
+.Text {
+	font-size: 1em;
+	margin: 2px 0 2px 0;
+}
+
+.RegisterDate {
+	font-size: 0.9em;
+}
+
+.TotalScore {
+	font-size: 1.2em;
+	margin: 8px 0 0 0;
+}
+
+/* .Star::before {
+    font-size: 1.3em;
+    content: "\2605";
+} */
+
+.Star {
+	width: 18px;
+	height: 18px;
+}
+.Star img {
+	width: 18px;
+	height: 18px;
+}
+
+.Skill {
+	display: flex;
+	flex-direction: row;
+	margin: 9px auto;
+	min-width: 280px;
+	max-width: 300px;
+}
+.SkillHolder {
+	width: 25%;
+}
+.SkillTitle {
+	font-size: 0.7em;
+	display: block;
+	text-align: center;
+}
+
+.Courses {
+	margin-top: 20px;
+}
+.CoursesList {
+	flex-wrap: nowrap;
+	overflow-y: hidden;
+	overflow-x: auto;
+	white-space: nowrap;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0 auto 9px auto;
+}
+.CoursesList .CourseItem {
+	direction: rtl;
+	display: inline-block;
+	text-align: right;
+	background-color: white;
+	width: 115px;
+	height: 115px;
+	border-radius: 15px;
+	margin: 0px 8px;
+	padding: 10px;
+}
+.CoursesList .CourseItem span {
+	display: inline;
+	color: #232a48;
+	margin-top: 30px;
+}
+.CoursesList .CourseItem .CourseLevel {
+	color: #232a48;
+	font-size: 0.7em;
+	margin-bottom: 1px;
+}
+.CoursesList .ChartHolder {
+	background-color: transparent;
+}
+
+.Card_Loading {
+	margin: 1vh 3vh;
+	padding: 8px;
+	min-height: 525px;
+	height: auto;
+	border-radius: 13px;
+	background-image: linear-gradient(to top, #313e8c, #232a48);
+	text-align: center;
+	color: white;
+	animation: card_loading 2s ease infinite;
+}
+
+@keyframes card_loading {
+	0% {
+		opacity: 0.9;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.9;
+	}
+}

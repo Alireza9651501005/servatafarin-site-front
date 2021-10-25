@@ -1,0 +1,43 @@
+.Svg {
+    display: block;
+    margin: 7px auto;
+    max-width: 100%;
+    transform: scaleX(-1) rotate(-90deg);
+}
+
+.Svg text {
+    transform: scaleX(-1) rotate(-90deg);
+}
+
+.CircleBG {
+    fill: #232A48;
+}
+
+.Circle {
+    fill: none;
+    /* -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+     */
+    /* stroke: linear-gradient(to top, #313E8C, #232A48); */
+}
+
+.SvgText {
+    font-size: .8rem;
+    margin-top: 2px;
+    text-anchor: middle;
+    fill: #ffffff;
+    background-color: #232A48;
+    /* font-weight: bold; */
+}
+
+.Percentage {
+    position: absolute;
+    margin: 0;
+    top: 32%;
+    left: 37%;
+    right: 35%;
+    font-size: .8rem;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+}

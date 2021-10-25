@@ -1,0 +1,203 @@
+.Main {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	/* height: 99.6vh;
+    width: 100vw; */
+	padding-top: 12px;
+	background-color: #e5edf6;
+}
+
+.Info {
+	padding: auto 30px;
+	background-color: #e5edf6;
+	height: 100%;
+	min-height: 600px;
+	overflow-y: auto;
+	position: relative;
+}
+
+.Main_Info {
+	margin: 0 auto;
+}
+
+.MainTitle {
+	color: #232a47;
+}
+
+.ShortDescription {
+	color: #478fcc;
+}
+
+.InviteCode {
+	color: #232a47;
+}
+
+.DownloadAppBTN div {
+	text-align: center;
+	min-width: 150px;
+	width: 80%;
+	max-width: 200px;
+	margin: 5px auto;
+	background-color: #39c2fd;
+	color: white;
+	padding: 15px 25px;
+	border: none;
+	border-radius: 15px;
+	text-decoration: none;
+}
+
+.DownloadAppBTN:hover {
+	text-decoration: none;
+}
+
+.PhoneTabletBanner {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 145px;
+	width: 312px;
+}
+
+.PhoneTabletBanner div {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.Mobile_Phone {
+	position: absolute;
+	left: 36%;
+	top: -31px;
+	bottom: 0;
+	height: auto;
+	width: 125px;
+}
+
+.Mobile_Banner {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.Tablet_Banner {
+	display: none;
+}
+
+.Desktop_Banner {
+	display: none;
+}
+
+.Tablet_Phone {
+	display: none;
+}
+
+.MoonComp {
+	position: absolute;
+	right: 190px;
+	top: 0px;
+	width: 55px;
+	height: auto;
+}
+
+.MoonLeft_Phone {
+	position: absolute;
+	top: 200px;
+	right: 0;
+	width: auto;
+	height: 160px;
+}
+
+.MoonRight_Phone {
+	position: absolute;
+	top: 110px;
+	left: 0;
+	width: auto;
+	height: 160px;
+}
+
+.MoonBottom {
+	display: none;
+}
+
+@media (min-width: 600px) {
+	.Mobile_Banner,
+	.Mobile_Phone {
+		display: none;
+	}
+	.Tablet_Banner {
+		display: block;
+		height: 210px;
+		width: auto;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.Tablet_Phone {
+		display: block;
+		height: 230px;
+		width: auto;
+		position: absolute;
+		bottom: 0;
+		left: 79%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.Main {
+		padding-top: 0;
+	}
+	.Main_Info {
+		padding-top: 70px;
+		width: 30%;
+		margin-right: 3vw;
+	}
+
+	.MoonComp {
+		top: -5px;
+		right: 190px;
+	}
+
+	.PhoneTabletBanner {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 60%;
+	}
+
+	.Tablet_Banner,
+	.MoonRight_Phone {
+		display: none;
+	}
+
+	.Desktop_Banner {
+		position: absolute;
+		top: -1.5px;
+		left: 0;
+		width: 100%;
+		display: block;
+		height: auto;
+	}
+
+	.Tablet_Phone {
+		display: block;
+		/* height: 480px; */
+		height: 78vh;
+		width: auto;
+		position: absolute;
+		bottom: 0;
+		left: 20%;
+	}
+
+	.MoonBottom {
+		display: block;
+		position: absolute;
+		bottom: 0;
+		right: 30vw;
+		width: 200px;
+		height: auto;
+	}
+}

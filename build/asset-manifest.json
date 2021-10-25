@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.be30cc1a.chunk.css",
+    "main.js": "/static/js/main.ede46ec6.chunk.js",
+    "main.js.map": "/static/js/main.ede46ec6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d17d4adf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d17d4adf.js.map",
+    "static/css/2.92d2a32f.chunk.css": "/static/css/2.92d2a32f.chunk.css",
+    "static/js/2.f7d7d0f2.chunk.js": "/static/js/2.f7d7d0f2.chunk.js",
+    "static/js/2.f7d7d0f2.chunk.js.map": "/static/js/2.f7d7d0f2.chunk.js.map",
+    "static/js/3.c620d005.chunk.js": "/static/js/3.c620d005.chunk.js",
+    "static/js/3.c620d005.chunk.js.map": "/static/js/3.c620d005.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.92d2a32f.chunk.css.map": "/static/css/2.92d2a32f.chunk.css.map",
+    "static/css/main.be30cc1a.chunk.css.map": "/static/css/main.be30cc1a.chunk.css.map",
+    "static/js/2.f7d7d0f2.chunk.js.LICENSE.txt": "/static/js/2.f7d7d0f2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/IRANSansFN_Light.44861703.ttf",
+    "static/media/desktop-banner.65eb5d8f.png": "/static/media/desktop-banner.65eb5d8f.png",
+    "static/media/payment-left-moon.e12d6a9d.png": "/static/media/payment-left-moon.e12d6a9d.png",
+    "static/media/phone-banner.26bb97aa.png": "/static/media/phone-banner.26bb97aa.png",
+    "static/media/phone-mobile.528b4a88.png": "/static/media/phone-mobile.528b4a88.png",
+    "static/media/phone-moon-right.f47cbc4d.png": "/static/media/phone-moon-right.f47cbc4d.png",
+    "static/media/tablet-banner.662c953b.png": "/static/media/tablet-banner.662c953b.png",
+    "static/media/tablet-mobile.528b4a88.png": "/static/media/tablet-mobile.528b4a88.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d17d4adf.js",
+    "static/css/2.92d2a32f.chunk.css",
+    "static/js/2.f7d7d0f2.chunk.js",
+    "static/css/main.be30cc1a.chunk.css",
+    "static/js/main.ede46ec6.chunk.js"
+  ]
+}

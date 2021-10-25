@@ -1,0 +1,182 @@
+.Main {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	/* height: 99.6vh;
+    width: 100vw; */
+	padding-top: 12px;
+	background-color: #e5edf6;
+	overflow-y: auto;
+}
+
+.Title {
+	font-family: "iransansbold";
+	font-size: 1.3em;
+	color: #232a48;
+	margin: 5px 0 8px 0;
+	position: relative;
+}
+
+.CourseCard {
+	width: 210px;
+	background-color: #fafafa;
+	border-radius: 15px;
+	height: auto;
+	min-height: 260px;
+	box-shadow: 0 2px 10px #0000001c;
+}
+.CourseImage {
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+	border-radius: 15px 15px 0 0;
+}
+.CourseImage img {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 15px 15px 0 0;
+}
+.CourseText {
+	text-align: right;
+}
+.CourseText span {
+	font-size: 0.8em;
+}
+.CourseDesc {
+	font-size: 0.8em;
+}
+.Payment {
+	width: 260px;
+	margin: 0 auto;
+}
+.PaymentRow {
+	width: 100%;
+}
+.PaymentRow .Label {
+	width: 60%;
+	display: inline-block;
+	background-color: #d1e6f0;
+	text-align: right;
+	border-radius: 0 8px 8px 0;
+}
+.PaymentRow .Amount {
+	width: 40%;
+	display: inline-block;
+	background-color: #fafafa;
+	border-radius: 8px 0 0 8px;
+}
+
+.Wallet {
+	width: 100%;
+	text-align: right;
+	position: relative;
+}
+.Wallet span {
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	border-radius: 5px;
+	background-color: #d1e6f0;
+	position: absolute;
+	top: 3px;
+	cursor: pointer;
+}
+.Wallet span img {
+	width: 100%;
+	height: auto;
+	margin-right: 2px;
+}
+.Wallet p {
+	display: inline-block;
+	margin: 5px 36px;
+}
+
+.PayBTN {
+	border: none;
+	border-radius: 8px;
+	background-color: #39c2fd;
+	width: 125px;
+	margin: 5px auto 5px 10px;
+	background-color: #39c2fd;
+	color: white;
+	padding: 15px 25px;
+	border: none;
+	border-radius: 10px;
+	outline: unset;
+}
+
+.CancelBTN {
+	border: 0.5px solid red;
+	border-radius: 8px;
+	background-color: #e1e6eb;
+	width: 125px;
+	margin: 5px auto;
+	color: black;
+	padding: 15px 25px;
+	border-radius: 10px;
+	outline: unset;
+}
+
+.MoonLeft {
+	position: absolute;
+	right: 0;
+	top: 33vh;
+	width: auto;
+	height: 190px;
+	/* transform: scaleY(-1); */
+}
+.MoonRight {
+	position: absolute;
+	left: 0;
+	top: 1px;
+	width: auto;
+	height: 80px;
+}
+
+.CourseCard_Loading {
+	width: 210px;
+	background-color: #fafafa;
+	border-radius: 15px;
+	height: auto;
+	min-height: 260px;
+	box-shadow: 0 2px 10px #0000001c;
+	animation: card_loading 2s ease infinite;
+}
+
+.Discount {
+	width: 60%;
+	display: inline-block;
+	background-color: #d1e6f0;
+	text-align: right;
+	border-radius: 0 8px 8px 0;
+	border: none;
+	outline: none;
+}
+
+.EffectDiscount {
+	width: 40%;
+	height: 42px;
+	display: inline-block;
+	background-color: #fafafa;
+	border-radius: 8px 0 0 8px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+@keyframes card_loading {
+	0% {
+		opacity: 0.4;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0.4;
+	}
+}

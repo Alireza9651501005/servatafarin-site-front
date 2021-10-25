@@ -1,0 +1,30 @@
+@font-face {
+	src: url("./assets/fonts/IRANSansFN_Light.ttf") format("truetype");
+	font-family: "iransans";
+}
+
+@font-face {
+	src: url("./assets/fonts/IRANSansFN_Bold.ttf") format("truetype");
+	font-family: "iransansBold";
+}
+
+* {
+	font-family: "iransans", sans-serif;
+	direction: rtl;
+}
+
+strong {
+	font-family: "iransansBold";
+}
+
+body {
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.Toastify__toast--error {
+	max-width: 280px;
+}
+/* .Toastify__toast {
+} */
